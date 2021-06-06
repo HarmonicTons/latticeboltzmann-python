@@ -1,4 +1,4 @@
-image: gitpod/workspace-full-vnc
+image: gitpod/workspace-full-vnc:branch-jx-python-tk
 tasks:
   - init: pip3 install -r requirements.txt
     command: echo 'start script'
